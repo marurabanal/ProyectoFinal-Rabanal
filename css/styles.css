@@ -13,6 +13,18 @@ html {
 font-family: 'Roboto', sans-serif;
 }
 
+header{
+    position: sticky;
+    top: 0;
+}
+
+.bg-grey-nav{
+background-color: #C6CCCC;
+padding: 10px;
+text-align: center;
+display: flex;
+justify-content: center;
+}
 
 
 

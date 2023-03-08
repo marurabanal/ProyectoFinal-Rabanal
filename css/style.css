@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; }
+
+html {
+  font: 62.5%; }
+
+header {
+  position: sticky;
+  top: 0; }
+
+.bg-grey-nav {
+  background-color: #C6CCCC;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center; }
+
+.a-listaPrincipal {
+  text-decoration: none;
+  color: white;
+  font-weight: bold; }
+
+.logoTina {
+  width: 150px;
+  height: 150px; }
+
+header {
+  position: sticky;
+  top: 0; }
+
+.titulos {
+  color: grey;
+  font-size: 20px;
+  margin: 10px;
+  display: inline-block; }
+
+.barra-de-navegacion-ppal {
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center; }
+
+.bg-grey-nav {
+  background-color: #C6CCCC;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center; }
+
+.barra-de-navegacion-ppal__listas {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.barra-de-navegacion-ppal__listas__pages {
+  display: inline-block;
+  margin: 5px;
+  margin-right: 40px; }
+
+.mainHome {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: column;
+  align-items: center; }
+
+.mainNosotros {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: column; }
+
+.article__productos-principales {
+  display: flex;
+  background-color: #DAE0E0;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  text-align: center; }
+
+.fotoNosotros {
+  display: flex;
+  justify-content: center;
+  padding: 10px; }
+
+.fotoReciclaje {
+  width: 40%;
+  height: 50%;
+  align-content: center; }
+
+.banner {
+  width: 910px;
+  height: 210px;
+  align-items: center;
+  margin: 50px;
+  display: flex;
+  justify-content: space-around; }
+
+.fotoBanner {
+  width: 900px;
+  height: 200px; }
+
+.productosDestacados {
+  width: 200px;
+  height: 200px; }
+
+.mainProductos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+
+.section__productos-otros {
+  display: flex;
+  justify-content: space-between;
+  Flex-wrap: wrap;
+  margin: 20px; }
+
+.section__productos-seleccionado {
+  display: flex;
+  margin: 40px; }
+
+.precio {
+  margin: 20px; }
+
+.article__producto-principal {
+  font-weight: bolder;
+  padding: 10px;
+  display: flex;
+  background-color: #DAE0E0;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center; }
+
+.article__descripcion-productos-principales {
+  padding: 100px;
+  align-items: center;
+  display: flex;
+  flex-direction: column; }
+
+.productosPrincipal {
+  height: 400px;
+  width: 400px; }
+
+.article__productos-otros {
+  font-weight: bolder;
+  color: grey;
+  display: flex;
+  background-color: #DAE0E0;
+  display: inline-block;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  text-align: center; }
+
+.mainFormulario {
+  padding: 50px;
+  background-color: #DAE6E6;
+  border: solid #DAE6E6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.opcionesRegistro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.registro {
+  margin: 10px;
+  padding: 10px; }
+
+#cursos {
+  display: flex;
+  flex-direction: column; }
+
+.a-listaFooter {
+  text-decoration: none;
+  color: grey;
+  font-weight: bold; }
+
+.bg-white {
+  background-color: white; }
+
+.grid {
+  width: 99%;
+  display: grid; }
+
+.scale:hover {
+  transform: scaleX(1.2); }
+
+@keyframes textAlpha {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+h1 {
+  animation-name: textAlpha;
+  animation-duration: 2s; }
+
+.detalleCopy {
+  padding: 10px; }
+
+/* MOBILE */
+@media screen and (max-width: 768px) {
+  .section__productos-seleccionado {
+    flex-direction: column; }
+  .w-100 {
+    width: 100%; }
+  .article__producto-principal {
+    padding-top: 10px; }
+  .section__productos-otros {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 20px; }
+  .articleRegistro {
+    display: flex;
+    flex-direction: column; }
+  .barra-de-navegacion-ppal__listas {
+    flex-direction: column; }
+  .banner {
+    display: none; } }
