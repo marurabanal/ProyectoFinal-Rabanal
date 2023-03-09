@@ -10,62 +10,55 @@ html {
 header {
   position: sticky;
   top: 0; }
+  header .bg-grey-nav {
+    background-color: #C6CCCC;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center; }
+    header .bg-grey-nav .a-listaPrincipal {
+      text-decoration: none;
+      color: white;
+      font-weight: bold; }
+      header .bg-grey-nav .a-listaPrincipal .logoTina {
+        width: 150px;
+        height: 150px; }
 
-.bg-grey-nav {
-  background-color: #C6CCCC;
-  padding: 10px;
-  text-align: center;
-  display: flex;
-  justify-content: center; }
-
-.a-listaPrincipal {
-  text-decoration: none;
-  color: white;
-  font-weight: bold; }
-
-.logoTina {
-  width: 150px;
-  height: 150px; }
-
-header {
-  position: sticky;
-  top: 0; }
-
-.titulos {
-  color: grey;
-  font-size: 20px;
-  margin: 10px;
-  display: inline-block; }
-
-.barra-de-navegacion-ppal {
-  padding: 10px;
-  text-align: center;
-  display: flex;
-  justify-content: center; }
-
-.bg-grey-nav {
-  background-color: #C6CCCC;
-  padding: 10px;
-  text-align: center;
-  display: flex;
-  justify-content: center; }
-
-.barra-de-navegacion-ppal__listas {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.barra-de-navegacion-ppal__listas__pages {
-  display: inline-block;
-  margin: 5px;
-  margin-right: 40px; }
-
-.mainHome {
+main .mainHome {
   padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: column;
   align-items: center; }
+  main .mainHome .titulos {
+    color: grey;
+    font-size: 20px;
+    margin: 10px;
+    display: inline-block; }
+    main .mainHome .titulos .banner {
+      width: 910px;
+      height: 210px;
+      align-items: center;
+      margin: 50px;
+      display: flex;
+      justify-content: space-around; }
+    main .mainHome .titulos .fotoBanner {
+      width: 900px;
+      height: 200px; }
+
+footer .barra-de-navegacion-ppal {
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center; }
+  footer .barra-de-navegacion-ppal .barra-de-navegacion-ppal__listas {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    footer .barra-de-navegacion-ppal .barra-de-navegacion-ppal__listas .barra-de-navegacion-ppal__listas__pages {
+      display: inline-block;
+      margin: 5px;
+      margin-right: 40px; }
 
 .mainNosotros {
   padding: 10px;
@@ -91,18 +84,6 @@ header {
   width: 40%;
   height: 50%;
   align-content: center; }
-
-.banner {
-  width: 910px;
-  height: 210px;
-  align-items: center;
-  margin: 50px;
-  display: flex;
-  justify-content: space-around; }
-
-.fotoBanner {
-  width: 900px;
-  height: 200px; }
 
 .productosDestacados {
   width: 200px;
