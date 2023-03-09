@@ -2,102 +2,84 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-}
 
+}
 
 html {
     font: 62.5%;
 }
 
-header{
-    position: sticky;
-    top: 0;
+* {
+font-family: 'Roboto', sans-serif;
+}
 
 
-       .bg-grey-nav{
-        background-color: #C6CCCC;
-        padding: 10px;
-        text-align: center;
-        display: flex;
-        justify-content: center;
 
-            .a-listaPrincipal {
-            text-decoration: none;
-            color: white;
-            font-weight: bold;
 
-                
-                .logoTina {
-                width: 150px; 
-                height: 150px;
-                }
 
-            }
-        }
-        }   
 
-    main{
+.a-listaPrincipal {
+text-decoration: none;
+color: white;
+font-weight: bold;
+}
 
-        .mainHome {
-            padding: 10px;
-            display: flex;
-            flex-direction: column;
-            justify-content: column;
-            align-items: center;
+
+.logoTina {
+    width: 150px; 
+    height: 150px;
+}
+
+header {
+position: sticky;
+top: 0;
+}
+
+.titulos {
+    color: grey;
+    font-size: 20px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.barra-de-navegacion-ppal {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+.bg-grey-nav {
+background-color: #C6CCCC;
+padding: 10px;
+text-align: center;
+display: flex;
+justify-content: center;
+
+}
+
+.barra-de-navegacion-ppal__listas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barra-de-navegacion-ppal__listas__pages {
+    display: inline-block;
+    margin: 5px;
+    margin-right: 40px;
     
-        
-            .titulos {
-                color: grey;
-                font-size: 20px;
-                margin: 10px;
-                display: inline-block;
-
-                .banner{
-                    width: 910px; 
-                    height: 210px;
-                    align-items: center;
-                    margin: 50px;
-                     display: flex;
-                    justify-content: space-around;
-                    }
-                
-                .fotoBanner {
-                    width: 900px; 
-                    height: 200px;
-                 }
-                
-            }
-        }
-        }
+}
 
 
 
-    footer {
-            .barra-de-navegacion-ppal {
-                padding: 10px;
-                text-align: center;
-                display: flex;
-                justify-content: center;
-
-
-                .barra-de-navegacion-ppal__listas{
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-
-                    .barra-de-navegacion-ppal__listas__pages {
-                        display: inline-block;
-                        margin: 5px;
-                        margin-right: 40px;
-                        
-                    }
-                  }
-              }
-        }
-
-
-
+.mainHome {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: column;
+    align-items: center;
+}
 
 .mainNosotros {
     padding: 10px;
@@ -133,6 +115,19 @@ header{
 
 
 
+.banner{
+    width: 910px; 
+    height: 210px;
+    align-items: center;
+    margin: 50px;
+     display: flex;
+    justify-content: space-around;
+    }
+
+.fotoBanner {
+        width: 900px; 
+        height: 200px;
+ }
 
 
 .productosDestacados {
@@ -313,12 +308,3 @@ h1{
 
 
     
-
-  
-
-
-   
-
-
-
-
