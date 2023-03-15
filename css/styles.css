@@ -13,6 +13,9 @@ html {
 font-family: 'Roboto', sans-serif;
 }
 
+.text-center{
+  text-align: center;
+}
 
 .a-listaPrincipal {
 text-decoration: none;
@@ -67,7 +70,14 @@ justify-content: center;
   
 }
 
+body{
+  background-image: url(../images/pared-ladrillo-pintado-blanco_1194-7526.webp);
+  background-size: 100%;
+}
 
+.fontStrong{
+  font-weight: bold;
+}
 
 .mainHome {
   padding: 10px;
@@ -83,6 +93,10 @@ justify-content: center;
   flex-direction: column;
   justify-content: column;
 
+}
+
+.zindex10{
+  z-index: 10;
 }
 
 .article__productos-principales{
@@ -253,6 +267,12 @@ animation-duration: 2s;
 
 .detalleCopy{
   padding: 10px;
+
+  }
+
+
+.imgLogoRedes{
+  width: 40px;
 }
 
 /* MOBILE */
@@ -267,12 +287,17 @@ animation-duration: 2s;
       width: 100%;
   }
 
+  .w-auto  {
+    width: auto;
+}
+
     .article__producto-principal{
-  
-  
-      padding-top: 10px;
-   
-    
+         padding-top: 10px;
+      
+         }
+
+  .logoTina{
+  padding: 10px;
   }
 
     .section__productos-otros {
@@ -299,6 +324,9 @@ animation-duration: 2s;
 }
 
 
+.imgLogoRedes{
+  width: 20px;
+}
 
   }
 

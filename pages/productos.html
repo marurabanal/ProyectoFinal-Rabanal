@@ -15,7 +15,9 @@
     <!-- BS CSS -->
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
- <link rel="stylesheet" href="../css/styles.css">
+<!-- CSS -->
+<link rel="stylesheet" href="/css/styles.css">
+<link rel="stylesheet" href="/scss/styles.scss">
 
     
     <title>Tina´s ATELIER</title>
@@ -75,7 +77,7 @@
     </header>
 
     <main class="mainProductos">
-        <H1 class="titulos">PRODUCTOS OFRECIDOS</H1>
+        <H1 class="titulos fontStrong">PRODUCTOS OFRECIDOS</H1>
 
         <form action="" >
             <label>Seleccione una categoria:</label>
@@ -91,21 +93,18 @@
            <section class="section__productos-seleccionado">
            
                  <article class="article__producto-principal">
+                     <img class="productosPrincipal w-auto" src="../images/PRODUCTO DESTACADO 1.webp" alt="productoPrincipalUno">
+                     <p>PRODUCTO 1</p>
+                </article>
                     
-                     <img class="productosPrincipal" src="../images/PRODUCTO DESTACADO 1.webp" alt="productoPrincipalUno">
-                     
-
-
-                        <p>PRODUCTO 1</p>
-                        
-                    </article>
-                    <article class="article__descripcion-productos-principales">
+                    
+                    <article class="article__descripcion-productos-principales text-center">
                         <h2> Descripcion del Producto Seleccionado</h2>
-                        <br>
+                       
                         <p>Una cómoda es un mueble bajo y de amplios cajones para guardar la ropa o diferentes objetos. Te ofrecemos una pieza unica restaurada con los elementos de la mejor calidad</p>
-                        <br>
+               
                         <h3>Precio $</h3>
-                        <br>
+                    
                         <input type="button" value="Agregar al carrito">
                     </article>
             </section>
@@ -170,6 +169,7 @@
             <ul class="barra-de-navegacion-ppal__listas"> 
                 <li class="barra-de-navegacion-ppal__listas__pages"><a class="a-listaFooter" href="#">Preguntas frecuentes</a></li>
                 <li class="barra-de-navegacion-ppal__listas__pages"><a class="a-listaFooter" href="#">Seguinos en nuestras redes</a></li>
+                <img class="imgLogoRedes" src="../images/INSTAGRAM.webp" alt="logoInstagram">
                 <li class="barra-de-navegacion-ppal__listas__pages"> Haz <a class="a-listaFooter" href="https://www.instagram.com/tinasatelieroz/" target="_blank">click aqui</a> para ir a nuestro Instagram</li>
                 <li class="barra-de-navegacion-ppal__listas__pages"><a class="a-listaFooter" href="#">Informacion legal</a></li>
                 <li class="barra-de-navegacion-ppal__listas__pages"><a class="a-listaFooter" href="./pages/sitemap.html">MAPA DE SITIO</a></li>
