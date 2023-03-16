@@ -126,8 +126,7 @@ body{
 
 
 .banner{
-  width: 910px; 
-  height: 210px;
+  width: 90%; 
   align-items: center;
   margin: 50px;
    display: flex;
@@ -135,14 +134,13 @@ body{
   }
 
 .fotoBanner {
-      width: 900px; 
-      height: 200px;
+      width: 100%; 
 }
 
 
 .productosDestacados {
   width: 200px;
-  height: 200px;
+ 
 }
 
 .mainProductos{
@@ -316,6 +314,7 @@ animation-duration: 2s;
       display: flex;
       flex-direction: column;
       width: 100%;
+      overflow-x: auto;
       
   }
 
