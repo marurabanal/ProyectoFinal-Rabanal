@@ -310,6 +310,11 @@ animation-duration: 2s;
       
   }
 
+  
+  .registro{
+    width: auto;
+  }
+
   .articleRegistro{
       display: flex;
       flex-direction: column;
