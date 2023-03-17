@@ -11,7 +11,7 @@
       top: 0;
 
       .bg-grey-nav {
-          background-color: #C6CCCC;
+          background-color: $grisnav;
           padding: 10px;
           text-align: center;
           display: flex;
@@ -21,7 +21,7 @@
       
           .a-listaPrincipal {
            text-decoration: none;
-          color: white;
+          color: $white;
           font-weight: bold;
 
               .logoTina {
@@ -52,7 +52,7 @@
 }
     
   .titulos {
-    color: grey;
+    color:$grey;
     font-size: 20px;
     margin: 10px;
     display: inline-block;
@@ -137,7 +137,7 @@
   
   .article__productos-principales{
     display: flex;
-    background-color: #DAE0E0;
+    background-color: $bgcolor;
     display: inline-block;
     padding: 20px;
     border-radius: 20px;
@@ -213,7 +213,7 @@
     font-weight: bolder;
     padding: 10px;
     display: flex;
-    background-color: #DAE0E0;
+    background-color: $bgcolor;
     display: inline-block;
     padding: 20px;
     border-radius: 20px;
@@ -236,7 +236,7 @@
   font-weight: bolder;
   color: grey;
   display: flex;
-  background-color: #DAE0E0;
+  background-color: $bgcolor;
   display: inline-block;
   padding: 20px;
   margin: 10px;
@@ -246,9 +246,9 @@
   }
   
   .mainFormulario{
-  padding: 50px;
-  background-color: #DAE6E6;
-  border: solid #DAE6E6;
+ 
+  background-color: $bgcolor;
+  border: solid $bgcolor;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -270,6 +270,7 @@
 
   }
   
+
   .opcionesRegistro{
       display: flex;
       flex-direction: row;
@@ -283,11 +284,6 @@
   } 
   
 
-
-    
-
-
-  
   
   /* MOBILE */
   
