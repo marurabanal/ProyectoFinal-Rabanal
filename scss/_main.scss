@@ -221,7 +221,7 @@
   }
   
   .article__descripcion-productos-principales{
-    padding: 100px;
+    padding: 40px;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -290,7 +290,7 @@
   @media screen and (max-width: 768px) {
 
     .banner {
-      display: none;
+      display: none !important;
     }
     
 
