@@ -1,37 +1,53 @@
-* { 
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+  font-family: "Roboto", sans-serif;
 }
 
 html {
   font: 62.5%;
 }
 
-* {
-font-family: 'Roboto', sans-serif;
-}
-
-.text-center{
+.text-center {
   text-align: center;
 }
 
-.a-listaPrincipal {
-text-decoration: none;
-color: white;
-font-weight: bold;
+header {
+  position: sticky;
+  top: 0;
 }
-
-
-.logoTina {
-  width: 150px; 
+header .bg-grey-nav {
+  background-color: #C6CCCC;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+header .bg-grey-nav .a-listaPrincipal {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+header .bg-grey-nav .a-listaPrincipal .logoTina {
+  width: 150px;
   height: 150px;
 }
 
-header {
-position: sticky;
-top: 0;
+.mainHome h1 {
+  animation-name: textAlpha;
+  animation-duration: 2s;
+}
+.mainHome h1 .scale:hover {
+  transform: scaleX(1.2);
+}
+@keyframes textAlpha {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .titulos {
@@ -39,43 +55,27 @@ top: 0;
   font-size: 20px;
   margin: 10px;
   display: inline-block;
+  animation-name: textAlpha;
+  animation-duration: 2s;
+}
+.titulos .scale:hover {
+  transform: scaleX(1.2);
+}
+@keyframes textAlpha {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-.barra-de-navegacion-ppal {
-  padding: 10px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
-
-.bg-grey-nav {
-background-color: #C6CCCC;
-padding: 10px;
-text-align: center;
-display: flex;
-justify-content: center;
-
-}
-
-.barra-de-navegacion-ppal__listas{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.barra-de-navegacion-ppal__listas__pages {
-  display: inline-block;
-  margin: 5px;
-  margin-right: 40px;
-  
-}
-
-body{
+body {
   background-image: url(../images/pared-ladrillo-pintado-blanco_1194-7526.webp);
   background-size: 100%;
 }
 
-.fontStrong{
+.fontStrong {
   font-weight: bold;
 }
 
@@ -86,20 +86,44 @@ body{
   justify-content: column;
   align-items: center;
 }
+.mainHome .banner {
+  width: 90%;
+  align-items: center;
+  margin: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.mainHome .fotoBanner {
+  width: 100%;
+}
 
 .mainNosotros {
   padding: 10px;
-   display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: column;
-
+}
+.mainNosotros h1 {
+  animation-name: textAlpha;
+  animation-duration: 2s;
+}
+.mainNosotros h1 .scale:hover {
+  transform: scaleX(1.2);
+}
+@keyframes textAlpha {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-.zindex10{
+.zindex10 {
   z-index: 10;
 }
 
-.article__productos-principales{
+.article__productos-principales {
   display: flex;
   background-color: #DAE0E0;
   display: inline-block;
@@ -107,49 +131,44 @@ body{
   border-radius: 20px;
   box-sizing: border-box;
   text-align: center;
-
 }
 
 .fotoNosotros {
   display: flex;
-     justify-content: center;
-     padding: 10px;
-     
+  justify-content: center;
+  padding: 10px;
 }
 
-.fotoReciclaje{
+.fotoReciclaje {
   width: 40%;
   height: 50%;
   align-content: center;
 }
 
-
-
-.banner{
-  width: 90%; 
-  align-items: center;
-  margin: 50px;
-   display: flex;
-  justify-content: space-around;
-  }
-
-.fotoBanner {
-      width: 100%; 
-}
-
-
 .productosDestacados {
   width: 200px;
- 
 }
 
-.mainProductos{
+.mainProductos {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-
-  
+}
+.mainProductos h1 {
+  animation-name: textAlpha;
+  animation-duration: 2s;
+}
+.mainProductos h1 .scale:hover {
+  transform: scaleX(1.2);
+}
+@keyframes textAlpha {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .section__productos-otros {
@@ -157,19 +176,18 @@ body{
   justify-content: space-between;
   Flex-wrap: wrap;
   margin: 20px;
-  
 }
 
-.section__productos-seleccionado{
+.section__productos-seleccionado {
   display: flex;
   margin: 40px;
- }
-
-
-.precio{
-margin: 20px;
 }
-.article__producto-principal{
+
+.precio {
+  margin: 20px;
+}
+
+.article__producto-principal {
   font-weight: bolder;
   padding: 10px;
   display: flex;
@@ -177,167 +195,142 @@ margin: 20px;
   display: inline-block;
   padding: 20px;
   border-radius: 20px;
-     text-align: center;
+  text-align: center;
 }
 
-.article__descripcion-productos-principales{
+.article__descripcion-productos-principales {
   padding: 100px;
   align-items: center;
   display: flex;
   flex-direction: column;
 }
 
-.productosPrincipal{
+.productosPrincipal {
   height: 400px;
   width: 400px;
-} 
-
-.article__productos-otros{
-font-weight: bolder;
-color: grey;
-display: flex;
-background-color: #DAE0E0;
-display: inline-block;
-padding: 20px;
-margin: 10px;
-border-radius: 20px;
-text-align: center;
-
 }
 
-.mainFormulario{
-padding: 50px;
-background-color: #DAE6E6;
-border: solid #DAE6E6;
-display: flex;
-flex-direction: column;
-justify-content: center;
-}
-
-.opcionesRegistro{
-display: flex;
-flex-direction: row;
-justify-content: center;
-}
-
-.registro{
+.article__productos-otros {
+  font-weight: bolder;
+  color: grey;
+  display: flex;
+  background-color: #DAE0E0;
+  display: inline-block;
+  padding: 20px;
   margin: 10px;
-  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
 }
 
-#cursos{
+.mainFormulario {
+  padding: 50px;
+  background-color: #DAE6E6;
+  border: solid #DAE6E6;
   display: flex;
   flex-direction: column;
-} 
+  justify-content: center;
+}
+.mainFormulario h1 {
+  animation-name: textAlpha;
+  animation-duration: 2s;
+}
+.mainFormulario h1 .scale:hover {
+  transform: scaleX(1.2);
+}
+@keyframes textAlpha {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
-.a-listaFooter {
+.opcionesRegistro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#cursos {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .barra-de-navegacion-ppal {
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+footer .barra-de-navegacion-ppal .barra-de-navegacion-ppal__listas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .barra-de-navegacion-ppal .barra-de-navegacion-ppal__listas__pages {
+  display: inline-block;
+  margin: 5px;
+  margin-right: 40px;
+}
+footer .barra-de-navegacion-ppal .imgLogoRedes {
+  width: 40px;
+}
+footer .barra-de-navegacion-ppal .a-listaFooter {
   text-decoration: none;
   color: grey;
   font-weight: bold;
-  }
-  
-.bg-white {
-background-color: white;
 }
-
 
 .grid {
   width: 99%;
   display: grid;
 }
 
-
-.scale:hover {
-  transform: scaleX(1.2);
-}
-
-
-@keyframes textAlpha {
-  from{opacity: 0}
-  to{opacity: 1}
-}   
-
-
-h1{
-animation-name: textAlpha; 
-animation-duration: 2s;
-}
-
-.detalleCopy{
+.detalleCopy {
   padding: 10px;
-
-  }
-
-
-.imgLogoRedes{
-  width: 40px;
 }
-
 
 /* TABLET */
-
-
 /* MOBILE */
-
 @media screen and (max-width: 768px) {
-   .section__productos-seleccionado {
-      flex-direction: column;
-       
-    }
-
-  .w-100   {
-      width: 100%;
+  .section__productos-seleccionado {
+    flex-direction: column;
   }
-
-  .w-auto  {
-    width: auto;
-}
-
-    .article__producto-principal{
-         padding-top: 10px;
-      
-         }
-
-  .logoTina{
-  padding: 10px;
+  .w-100 {
+    width: 100%;
   }
-
-    .section__productos-otros {
-      display: flex;
-      justify-content: space-between;
-      flex-direction: column;
-      margin: 20px;
-      
-  }
-
-  
-  .registro{
+  .w-auto {
     width: auto;
   }
-
-  .articleRegistro{
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      overflow-x: auto;
-      
+  .article__producto-principal {
+    padding-top: 10px;
   }
-
-.barra-de-navegacion-ppal__listas {
-  flex-direction: column;
-  
-}
-  
-.banner {
-  display: none;
-}
-
-
-.imgLogoRedes{
-  width: 20px;
-}
-
+  .logoTina {
+    padding: 10px;
   }
-
-
-  
+  .section__productos-otros {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 20px;
+  }
+  .registro {
+    width: auto;
+  }
+  .mobileRegistro {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-x: auto;
+  }
+  .barra-de-navegacion-ppal__listas {
+    flex-direction: column;
+  }
+  .banner {
+    display: none;
+  }
+  .imgLogoRedes {
+    width: 20px;
+  }
+}/*# sourceMappingURL=styles.css.map */
