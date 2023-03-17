@@ -11,7 +11,7 @@
       top: 0;
 
       .bg-grey-nav {
-          background-color: $grisnav;
+          background-color: map-get($paleta-colores,"principal");
           padding: 10px;
           text-align: center;
           display: flex;
@@ -21,7 +21,7 @@
       
           .a-listaPrincipal {
            text-decoration: none;
-          color: $white;
+          color: map-get($paleta-colores,"secundario");
           font-weight: bold;
 
               .logoTina {
@@ -144,7 +144,7 @@
   
   .article__productos-principales{
     display: flex;
-    background-color: $bgcolor;
+    background-color: map-get($paleta-colores, "bgcolor");
     display: inline-block;
     padding: 20px;
     border-radius: 20px;
@@ -218,13 +218,12 @@
   }
   .article__producto-principal{
     font-weight: bolder;
-    padding: 10px;
-    display: flex;
-    background-color: $bgcolor;
+     @include flexbox (center);
+    background-color: map-get($paleta-colores, "bgcolor");
     display: inline-block;
     padding: 20px;
     border-radius: 20px;
-       text-align: center;
+       
   }
   
   .article__descripcion-productos-principales{
@@ -243,7 +242,7 @@
   font-weight: bolder;
   color: grey;
   display: flex;
-  background-color: $bgcolor;
+  background-color: maps-get($paleta-colores, "bgcolor");
   display: inline-block;
   padding: 20px;
   margin: 10px;
@@ -254,8 +253,8 @@
   
   .mainFormulario{
  
-  background-color: $bgcolor;
-  border: solid $bgcolor;
+  background-color: maps-get($paleta-colores, "bgcolor");
+  border: solid maps-get($paleta-colores, "bgcolor");
   display: flex;
   flex-direction: column;
   justify-content: center;

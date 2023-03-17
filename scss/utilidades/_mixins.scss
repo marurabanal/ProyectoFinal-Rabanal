@@ -1,0 +1,6 @@
+//MIXIM
+
+@mixin flexbox ($dir, $center){
+    display: flex;
+   text-align: $center;
+}

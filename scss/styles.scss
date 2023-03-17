@@ -1,6 +1,8 @@
 //imports
 @import "./utilidades/vars";
-@import "./base/reset.scss";
+@import "./utilidades/mixins";
+@import "./base/reset";
+@import "./utilidades/condicionales";
 @import "./main";
 @import "./footer";
 
