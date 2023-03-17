@@ -34,6 +34,14 @@ header .bg-grey-nav .a-listaPrincipal .logoTina {
   height: 150px;
 }
 
+.flex {
+  display: flex;
+}
+
+.w-50 {
+  width: 50% !important;
+}
+
 .mainHome h1 {
   animation-name: textAlpha;
   animation-duration: 2s;
