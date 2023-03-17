@@ -1,0 +1,363 @@
+
+.text-center{
+  text-align: center;
+
+}
+
+ 
+
+  header {
+      position: sticky;
+      top: 0;
+
+      .bg-grey-nav {
+          background-color: #C6CCCC;
+          padding: 10px;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          
+         
+      
+          .a-listaPrincipal {
+           text-decoration: none;
+          color: white;
+          font-weight: bold;
+
+              .logoTina {
+                  width: 150px; 
+                  height: 150px;
+    }
+  }
+}
+}
+  
+  
+  
+.mainHome {
+  h1{
+      animation-name: textAlpha; 
+      animation-duration: 2s;
+  .scale:hover {
+      transform: scaleX(1.2);
+    
+      @keyframes textAlpha {
+      from{opacity: 0}
+      to{opacity: 1}
+       
+    
+    }
+  }   
+}
+}
+    
+  .titulos {
+    color: grey;
+    font-size: 20px;
+    margin: 10px;
+    display: inline-block;
+    animation-name: textAlpha; 
+    animation-duration: 2s;
+      
+      .scale:hover {
+      transform: scaleX(1.2);
+    
+      @keyframes textAlpha {
+      from{opacity: 0}
+      to{opacity: 1}
+       
+          }
+  }   
+}
+
+    
+  
+ 
+ 
+  
+
+  
+  body{
+    background-image: url(../images/pared-ladrillo-pintado-blanco_1194-7526.webp);
+    background-size: 100%;
+  }
+  
+  .fontStrong{
+    font-weight: bold;
+  }
+  
+  .mainHome {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: column;
+    align-items: center;
+
+    .banner{
+      width: 90%; 
+      align-items: center;
+      margin: 50px;
+       display: flex;
+      justify-content: space-around;
+      }
+    
+    .fotoBanner {
+          width: 100%; 
+    }
+      
+
+  }
+  
+  .mainNosotros {
+    padding: 10px;
+     display: flex;
+    flex-direction: column;
+    justify-content: column;
+    h1{
+      animation-name: textAlpha; 
+      animation-duration: 2s;
+  .scale:hover {
+      transform: scaleX(1.2);
+    
+      @keyframes textAlpha {
+      from{opacity: 0}
+      to{opacity: 1}
+       
+     
+      }
+    }
+  }   
+}
+
+
+      
+  .zindex10{
+    z-index: 10;
+  }
+  
+  .article__productos-principales{
+    display: flex;
+    background-color: #DAE0E0;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  
+  }
+  
+  .fotoNosotros {
+    display: flex;
+       justify-content: center;
+       padding: 10px;
+       
+  }
+  
+  .fotoReciclaje{
+    width: 40%;
+    height: 50%;
+    align-content: center;
+  }
+  
+  
+  
+
+  
+  .productosDestacados {
+    width: 200px;
+   
+  }
+  
+  .mainProductos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    h1{
+      animation-name: textAlpha; 
+      animation-duration: 2s;
+  .scale:hover {
+      transform: scaleX(1.2);
+    
+      @keyframes textAlpha {
+      from{opacity: 0}
+      to{opacity: 1}
+     
+      }
+  }   
+}
+        
+  }
+
+  
+  
+  .section__productos-otros {
+    display: flex;
+    justify-content: space-between;
+    Flex-wrap: wrap;
+    margin: 20px;
+    
+  }
+  
+  .section__productos-seleccionado{
+    display: flex;
+    margin: 40px;
+   }
+  
+  
+  .precio{
+  margin: 20px;
+  }
+  .article__producto-principal{
+    font-weight: bolder;
+    padding: 10px;
+    display: flex;
+    background-color: #DAE0E0;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 20px;
+       text-align: center;
+  }
+  
+  .article__descripcion-productos-principales{
+    padding: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .productosPrincipal{
+    height: 400px;
+    width: 400px;
+  } 
+  
+  .article__productos-otros{
+  font-weight: bolder;
+  color: grey;
+  display: flex;
+  background-color: #DAE0E0;
+  display: inline-block;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  text-align: center;
+  
+  }
+  
+  .mainFormulario{
+  padding: 50px;
+  background-color: #DAE6E6;
+  border: solid #DAE6E6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h1{
+      animation-name: textAlpha; 
+      animation-duration: 2s;
+  .scale:hover {
+      transform: scaleX(1.2);
+    
+      @keyframes textAlpha {
+      from{opacity: 0}
+      to{opacity: 1}
+       
+    
+    }
+  }   
+}
+
+
+  }
+  
+  .opcionesRegistro{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+           }
+      
+     
+  #cursos{
+    display: flex;
+    flex-direction: column;
+  } 
+  
+
+
+    
+
+
+  
+  
+  /* MOBILE */
+  
+  @media screen and (max-width: 768px) {
+
+    .banner {
+      display: none;
+    }
+    
+
+    .section__productos-seleccionado {
+       flex-direction: column;
+        
+     }
+ 
+   .w-100   {
+       width: 100%;
+   }
+ 
+   .w-auto  {
+     width: auto;
+ }
+ 
+     .article__producto-principal{
+          padding-top: 10px;
+       
+          }
+ 
+   .logoTina{
+   padding: 10px;
+   }
+ 
+     .section__productos-otros {
+       display: flex;
+       justify-content: space-between;
+       flex-direction: column;
+       margin: 20px;
+       
+   }
+ 
+   
+   .registro{
+     width: auto;
+      }  
+ 
+   .mobileRegistro{
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       overflow-x: auto;
+           
+   }
+     
+ 
+ .barra-de-navegacion-ppal__listas {
+   flex-direction: column;
+   
+ }
+   
+
+ 
+ .imgLogoRedes{
+   width: 20px;
+ }
+ 
+   }
+ 
+ 
+   
+
+  
+  
+  

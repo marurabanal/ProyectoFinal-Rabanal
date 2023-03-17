@@ -3,4 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+}
+
+html {
+  font: 62.5%;
 }/*# sourceMappingURL=reset.css.map */

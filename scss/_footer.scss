@@ -1,0 +1,46 @@
+
+footer{
+  .barra-de-navegacion-ppal {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    .barra-de-navegacion-ppal__listas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .barra-de-navegacion-ppal__listas__pages {
+        display: inline-block;
+        margin: 5px;
+        margin-right: 40px;
+        
+      }
+     
+.imgLogoRedes{
+    width: 40px;
+  }
+    .a-listaFooter {
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+  }
+    }
+          }
+
+
+.grid {
+  width: 99%;
+  display: grid;
+}
+
+
+
+
+.detalleCopy{
+  padding: 10px;
+
+  }
+
